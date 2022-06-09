@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://kit.fontawesome.com/85ac0be369.js" crossorigin="anonymous"></script>
+<title>Park Landing Page</title>
+</head>
+<body>
+    <!-- Navbar -->
+
+    <nav class="navbar">
+    <h1>Bowdoinham Park</h1>
+    <nav class="navbar-items">
+        <ul class="color">
+            <li><a href="#">Home</a></li>
+            <li><a href="#myImages">Gallary</a></li>
+            <li><a href="#info">Contact Info</a></li>
+        </ul>
+    </nav>
+    </nav>
+
+<!-- Section 1 -->
+    <nav class="text-center">
+        <h3>Things To Know!</h3>
+        <h4 class="list-item">It's Free! :</h4>
+        <br>
+        <p class="item">There's free parking for anyone that comes to visit our park weather you want to stay the whole day or just stay for a few hours.
+            No entry fee or any other fee you might normally need to pay. All we ask is that you pick up after yourselves to keep the park nice and clean
+             for all those that come after you.</p>
+        <h4 class="list-item">Tails :</h4>
+        <br>
+        <p class="item">At Bowdoinham Park we have a varity of different trails you can take to see nature and all it's glory. That being said try not to go too
+            far off course because it can be dangerous with all the different kinds of wild animals in the woods. Don't worry too much though afterall we make sure that 
+        there aren't any dangerous animals around before we open oue gates to you. Safty is our # 1 priority!</p>
+        <h4 class="list-item">Wild Life :</h4>
+        <br>
+        <p class="item">The wildlife you encounter here are not dangerous(deer, rabbits, squirls, birds, etc) they are however, wild so they will most likely be skiddish around humans.</p>
+        <h4 class="list-item">Gift Shop :</h4>
+        <br>
+        <p class="item">We have a gift shop that sells many different items from stuffed animals to jewlery or clothes to stickers. We also sell drinks and refreshments so don't worry if you 
+            forgot the waterbottle at home, Make sure to pay it a visit before leaving </p>
+    </nav>
+    <div id="myImages"></div>
+<!-- Gallary -->
+<div class="container-lg my-3">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+        </ol>
+        
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="static/Images/bridge.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="static/Images/stars.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="static/Images/stairs.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+            <div class="carousel-item">
+                <img src="static/Images/trail_path.jpg" class="d-block w-100" alt="Slide 4">
+            </div>
+            <div class="carousel-item">
+                <img src="static/Images/tree.jpg" class="d-block w-100" alt="Slide 5">
+            </div>
+        </div>
+
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+
+<!-- Footer -->
+<footer>
+    <div class="bottom">
+        <div class="map">
+            <img src="static/Images/maine-state-map.jpeg" alt="" class="maping">
+        </div>
+        <div id="info" class="footinfo">
+            <div class="foothead">Info</div>
+            <div class="location"><br>
+                <p class="tiny"><i class="fa-solid fa-location-dot"></i> Maine, Bowdoinham 04000 United States</p>
+            </div><br><br>
+            <div class="email">
+                <p class="tiny"><i class="fa-solid fa-envelope"></i> Bowdoinham_Park112@gmail.com</p>
+            </div><br><br>
+            <div class="phone">
+                <p class="tiny"><i class="fa-solid fa-mobile-screen-button"></i> Call us: 207-354-5679</p>
+            </div>
+        </div>
+        <div class="social">
+            <div class="foothead">Social</div>
+            <div class="media">
+                <a href="https://www.facebook.com/"><p class="tiny"><i class="fa-brands fa-facebook"></i> Facebook</p></a>
+            </div>
+            <div class="media">
+                <a href="https://twitter.com/?lang=en"><p class="tiny"><i class="fa-brands fa-twitter"></i> Twitter</p></a>
+            </div>
+            <div class="media">
+                <a href="https://www.instagram.com/"><p class="tiny"><i class="fa-brands fa-instagram"></i> Instagram</p></a>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
